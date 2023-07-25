@@ -17,7 +17,7 @@ SPAM_MESSAGE = ["@everyone Quá ghê gớm….🌚😳Và đây là Folon
 
 client = commands.Bot(command_prefix=".")
 
-with open('/Users/Administrator/PycharmProjects/pythonProject/raid/phái yeager.png', 'rb') as f:
+with open('yeagerists.png', 'rb') as f:
   icon = f.read()
 @client.event
 async def on_ready():
